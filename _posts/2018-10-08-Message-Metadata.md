@@ -19,7 +19,7 @@ REST endpoints, we are able to capture metadata store it and maintain the state 
 
 ## Channel Structure ##
 
-![Basic]({{ site.baseurl }}/images/metadata/metadata_001b.jpeg)
+![Basic]({{ site.baseurl }}/images/metadata/metadata_001c.jpeg)
 
 
 ## Adding Message-Click Metadata ##

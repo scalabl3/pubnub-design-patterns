@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05d330a-1721-462c-81cd-07027a2f5520" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2018-10-08-Message-Metadata.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-08-Message-Metadata.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-10-08-Message-Metadata.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/metadata/metadata_001b.jpeg" beforeDir="false" />
     </list>
     <ignored path="pubnub-design-patterns.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,24 +34,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="md" value="3" />
+          <entry key="md" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="2461" />
+          <entry key="md" value="2470" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="2393" />
+          <entry key="Markdown" value="2402" />
           <entry key="PLAIN_TEXT" value="68" />
         </counts>
       </usages-collector>
@@ -60,33 +62,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="191" selection-start-line="14" selection-start-column="191" selection-end-line="14" selection-end-column="191" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-10-08-Message-Metadata.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="852">
-                <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015-08-11-Advanced-Channel-Groups-Friend-Lists-Status-Feed-And-Presence.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="357">
-                <caret line="46" selection-start-line="46" selection-end-line="55" selection-end-column="18" />
+              <first_editor relative-caret-position="117">
+                <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
               </first_editor>
               <second_editor />
             </state>
@@ -123,6 +104,7 @@
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_posts/2015-02-28-Message-Update-Delete.md" />
         <option value="$PROJECT_DIR$/_posts/2017-04-19-Read-Receipts.md" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/_posts/2018-10-08-Message-Metadata.md" />
       </list>
     </option>
@@ -250,12 +232,12 @@
       <workItem from="1539015460271" duration="97000" />
       <workItem from="1539017110159" duration="9000" />
       <workItem from="1539017152768" duration="115000" />
-      <workItem from="1539017569079" duration="2448000" />
+      <workItem from="1539017569079" duration="3424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36281000" />
+    <option name="totallyTimeSpent" value="37257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -431,6 +413,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-10-08-Message-Metadata.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -439,8 +431,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="852">
-            <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <first_editor relative-caret-position="117">
+            <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
           </first_editor>
           <second_editor />
         </state>
