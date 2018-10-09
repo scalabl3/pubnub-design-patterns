@@ -14,13 +14,21 @@ about a new pattern. With PubNub, since we are fairly immutable in design, how d
 ![Basic]({{ site.baseurl }}/images/metadata/metadata_001.jpeg)
 
 In this diagram, the message (and media) are already published and already stored. How do you track the likes and comments
-on these messages? The key is in using PubNub's serverless compute Functions platform. With the KV Store and Functions 
-REST endpoints, we are able to capture metadata store it and maintain the state of the metadata in the clients.
+on these messages? The key is in using PubNub's serverless compute <a href="https://www.pubnub.com/products/functions/" target="_blank">Functions</a> platform. 
+With the <a href="https://www.pubnub.com/docs/blocks/tutorials/kv-store" target="_blank">KV Store</a> and 
+<a href="https://www.pubnub.com/docs/blocks/tutorials/building-http-webhooks-and-microservices-with-endpoints" target="_blank">Functions REST endpoints</a>, 
+we are able to capture metadata store it and maintain the state of the metadata in the clients.
+
+<a href="https://www.pubnub.com/docs/blocks/tutorials/hello-world" target="_blank">Getting Started with Functions</a>
 
 ## Channel Structure ##
 
 ![Basic]({{ site.baseurl }}/images/metadata/metadata_001c.jpeg)
 
+To maintain streams of data accessible by type and incorporating realtime updates, having channel separation can make this 
+a bit easier. It consists of three channels, the main messages channel where new messages are published, the metadata
+side channel for metadata updates, and a comments channel for individual comments on individual messages. The comments
+channel name shares the msgID of the message itself.
 
 ## Adding Message-Click Metadata ##
 
@@ -57,6 +65,9 @@ subscribed will receive the update, and when catching up through Storage the use
 The publishing out can be controlled based on date/time of the original message or other mechanisms, for instance,
 you may decide only to publish out new results if it's within a certain time period. 
 
+Adding comments will add a comment counter, and be published to the comments channel for the message. When you click or tap
+on that message, then you can call PubNub history to retrieve all the messages and comments for that message.
+
 ## History, Scrolling & On Demand ##
 
 When scrolling up/down through history, getting the latest metadata on demand is also valuable. This allows for 
@@ -65,6 +76,12 @@ metadata retrieval on a msgID allows for this type of scenario.
 
 ![Basic]({{ site.baseurl }}/images/metadata/metadata_003.jpeg)
 
+## Workflow ##
 
-![Basic]({{ site.baseurl }}/images/metadata/metadata_004.jpeg)
+Clients will subscribe to the messages channel and the messages-metadata channel. This allows them to receive new messages in realtime
+along with the metadata changes. When they click/tap on an individual message, retrieving the history of comments on the message-comments
+channel gives the history of comments, and if they subscribe to that channel while in that view, they can have a chat like experience
+of realtime commenting. 
+
+For any questions, hit up your Account Manager and Solution Architect for more information, tips, guidance or questions!
 
